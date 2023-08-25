@@ -3,11 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700&display=swap');
 @import "../../node_modules/bootstrap/scss/functions";
 @import './utils/variables';
-// @import './layout/header.scss';
 @import './layout/font';
-@import './pages/index.scss';
-
+@import './layout/base';
+@import './pages/index';
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import './utils/nav';
+@import './utils/form-control';
 @import './utils/utilities';
 @import "../../node_modules/bootstrap/scss/utilities/api";
 

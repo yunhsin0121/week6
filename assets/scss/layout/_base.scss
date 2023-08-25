@@ -1,0 +1,9 @@
+body{
+    padding-top: 104px;
+    @media (max-width:991px) {
+      padding-top: 71px;
+    }
+  }
+  img{
+    object-fit: cover;
+  }
